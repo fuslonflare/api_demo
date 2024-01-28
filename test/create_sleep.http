@@ -1,0 +1,10 @@
+@base_url=http://localhost:8081
+
+POST {{base_url}}/todos
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiYXJ0aHVyIl0sImV4cCI6MTcwNTgzODg0Nn0.Y916ZZo3kPIrVcbF5cAUfxl1bnDpE_BbtqQn_X3ljMw
+TransactionId: x123
+
+{
+  "text": "sleep"
+}
